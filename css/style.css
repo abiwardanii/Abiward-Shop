@@ -1,0 +1,117 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #1e5474;
+    background: #f7f7f7;
+}
+
+#container{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#container #header{
+    margin-top: 10px;
+}
+
+#container #header #menu{
+    background: #1e5474;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+#container #header #menu #user{
+    float: left;
+}
+
+#container #header #menu #user a{
+    color: white;
+    padding-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container #header #menu #keranjang {
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+#container #footer{
+    background: #1e5475;
+    padding: 10px;
+}
+
+#container #footer p{
+    font-size: 10px;
+    margin: 0px;
+}
+
+#container #content{
+    padding: 10px 0px;
+}
+
+#container-user-akses{
+    margin: 50px auto;
+    font-family: 'Raleway', sans-serif;
+}
+#register-section .form-group, #login-section .form-group{
+    width: 400px;
+    margin: 50px auto;
+}
+
+#button-register:hover{
+    background: orange;
+}
+
+.notif{
+    background: #1e5474;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+#menu-profile{
+    width: 245px;
+}
+#menu-profile a{
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+#menu-profile a:hover,#menu-profile a.active{
+    background: orange;
+    font-weight: bold;
+    color: white;
+}
+
+#profile-content{
+    width: 835px;
+    padding: 10px;
+    background: white;
+}
+
+#frame-tambah{
+    margin-bottom: 10px;
+}
+
+#frame-tambah a{
+    font-size: 14px;
+}
+
+#menu-kategori ul li:hover,
+#menu-kategori ul li.active {
+    background: #e8e8e8;
+}
+
+.total-barang{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    vertical-align: top;
+}
+
